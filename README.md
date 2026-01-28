@@ -1,5 +1,6 @@
-***DBSCAN Clustering from Scratch***
-Overview:
+**DBSCAN Clustering from Scratch**
+Overview
+
 This project implements the DBSCAN (Density-Based Spatial Clustering of Applications with Noise) algorithm completely from scratch using Python.
 The goal is to group data points based on density and identify clusters and noise without predefining the number of clusters.
 The implementation uses Euclidean distance, NumPy for calculations, and matplotlib for visualization.
@@ -49,3 +50,4 @@ Minimum number of points required to form a dense region (core point).
 
 Time Complexity
 O(n²) - Each point checks its distance against all other points during neighborhood searches.
+
