@@ -4,6 +4,14 @@ This project implements the DBSCAN (Density-Based Spatial Clustering of Applicat
 The goal is to group data points based on density and identify clusters and noise without predefining the number of clusters.
 The implementation uses Euclidean distance, NumPy for calculations, and matplotlib for visualization.
 
+Features
+- DBSCAN implemented from scratch
+- Uses Euclidean distance
+- Identifies core, border, and noise points
+- Works on a 2D synthetic dataset
+- Clear cluster visualization
+- No external ML libraries used
+
 Technologies Used:
 - Python 3.10.11
 - NumPy
@@ -38,3 +46,6 @@ Parameters Used:
 Defines the maximum Euclidean distance between two points to be considered neighbors.
 2. min_samples = 5
 Minimum number of points required to form a dense region (core point).
+
+Time Complexity
+O(n²) - Each point checks its distance against all other points during neighborhood searches.
